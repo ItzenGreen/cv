@@ -1,0 +1,49 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+}
+h1 {
+    color: #41444B;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    margin: 45px;
+    padding: 0;
+    font-size: 15px;
+    line-height: 2em;
+    font-family: 'Adamina', serif;
+}
+a{
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  font-size: 14px;
+  text-decoration: none;
+  color: #41444B;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.middle-container {
+    background-color: #F6F4E6;
+    margin: 15px 15px;
+    padding: 50px;
+}
+.rocioHeader {
+    max-width: 500px;
+    width: 50%;
+    position: relative;
+    z-index: 100;
+}
+.copyright {
+  color: #41444B;
+  font-size: 0.85rem;
+  padding: 20px 0;
+}
+.logoCopyright{
+  width: 2%;
+  margin-left: 10px;
+}
