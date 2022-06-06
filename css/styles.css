@@ -1,43 +1,165 @@
+
 body {
-  color: #40514E;
-  margin: 0;
+  font-family: "Montserrat";
   text-align: center;
 }
-h1 {
-    color: #41444B;
-    text-transform: uppercase;
-    letter-spacing: .5em;
-    margin: 45px;
-    padding: 0;
-    font-size: 15px;
-    line-height: 2em;
-    font-family: 'Adamina', serif;
-}
-a{
-  font-family: 'Nunito', sans-serif;
-  display: flex;
-  font-size: 14px;
-  text-decoration: none;
-  color: #41444B;
-  justify-content: center;
-  padding-top: 0px;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
-a:hover {
-  text-decoration: underline;
+p {
+  color: #3b3c40;
 }
 
-.middle-container {
-    background-color: #F6F4E6;
-    margin: 15px 15px;
-    padding: 50px;
+p1 {
+  color: #fff;
 }
-.rocioHeader {
-    max-width: 500px;
-    width: 50%;
-    position: relative;
-    z-index: 100;
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
 }
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 2% 7%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #1f1f21;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+
+
+/* Title Section */
+
+#title {
+  background-color: #1f1f21;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Begining Section */
+
+#begining {
+  position: relative;
+}
+
+.begining-title {
+  font-size: 1.5rem;
+}
+
+.begining-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #fcb110;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #be8202;
+}
+
+/* Testimonial Section */
+
+#workingBig {
+  background-color: #3b3c40;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Compay  Section */
+#company {
+  background-color: #3b3c40;
+}
+
+.company-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Tools Section */
+#tools {
+  padding: 100px;
+}
+
+.tools-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.tools-column {
+  padding: 2% 2%;
+}
+
+
+
+/* Footer Section */
+
+.social-icon {
+  margin: 20px 10px;
+}
+
 .copyright {
   color: #41444B;
   font-size: 0.85rem;
@@ -46,4 +168,18 @@ a:hover {
 .logoCopyright{
   width: 2%;
   margin-left: 10px;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-text {
+    font-size: 3rem;
+    line-height: 1.5
+  }
+
 }
